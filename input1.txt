@@ -1,0 +1,9 @@
+8; 12
+Buy cement; 10; 1; []
+Make cement; 5; 1; [Buy cement]
+Buy steel; 10; 2; [Make a chertege]
+Buy the place; 15; 2; []
+Privezti materials; 20; 2; [Buy the place, Make cement, Buy steel]
+Make a chertege; 20; 3; [Buy the place]
+Build a bridge; 80; 4; [Buy cement, Make a chertege, Make foundation, Make cement, Buy steel, Buy the place, Privezti materials]
+Make foundation; 20; 3; [Privezti materials]
